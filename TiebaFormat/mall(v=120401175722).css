@@ -1,0 +1,153 @@
+? 1.icon_relative {
+    position: relative;
+    zoom: 1;
+    display: inline - block;
+    zoom: 1; * display: inline;
+    zoom: 1;
+}.icon_relative.badge {
+    overflow: hidden;
+    background - repeat: no - repeat;
+    line - height: 20px;
+    position: absolute;
+    font - size: 12px;
+}.icon_relative.spbadge_sb {
+    overflow: hidden;
+    background - repeat: no - repeat;
+    line - height: 34px;
+    position: absolute;
+    font - size: 12px;
+}.icon_relative.spbadge {
+    overflow: hidden;
+    background - repeat: no - repeat;
+    line - height: 34px;
+    position: absolute;
+    font - size: 12px;
+}.icon_relative.guessMoney {
+    color: #000;}.guessMoney .bimg{margin-bottom:5px;float:none;}.icon_relative img{float:left;}.icon_relative .bd1{left:-6px;bottom:10px;width:64px;height:17px;line-height:17px;color:# FFF;
+    font - family: '宋体';
+}.icon_relative.bd2 {
+    left: -10px;
+    bottom: -5px;
+    width: 71px;
+    height: 30px;
+    line - height: 25px;
+    color: #FFF;
+    font - family: '宋体';
+}.icon_relative.bd3 {
+    bottom: -5px;
+    color: #FFF;
+    font - family: '宋体';
+    height: 36px;
+    left: -10px;
+    line - height: 45px;
+    padding - left: 35px;
+    width: 63px;
+    color: #000;}.icon_relative .bd4{bottom:-2px;color:# FFF;
+    font - family: '宋体';
+    height: 37px;
+    left: -6px;
+    line - height: 52px;
+    padding - left: 20px;
+    width: 62px;
+    color: #000;}.icon_relative .bd5{bottom:-2px;color:# 932E41;
+    font - family: '宋体';
+    height: 20px;
+    left: -6px;
+    line - height: 23px;
+    padding - left: 23px;
+    width: 60px;
+}.icon_relative.bd41 {
+    bottom: -6px;
+    color: #777;font-family:'宋体';left:-6px;line-height:23px;width:69px;height:22px;}.icon_relative .bd42{bottom:-6px;color:# f3002e;
+    font - family: '宋体';
+    left: -6px;
+    line - height: 23px;
+    width: 69px;
+    height: 22px;
+}.icon_relative.bd43 {
+    bottom: -6px;
+    color: #0010d9;font-family:'宋体';left:-6px;line-height:23px;width:69px;height:22px;}.icon_relative .bd44{bottom:-6px;color:# 9f08e9;
+    font - family: '宋体';
+    left: -6px;
+    line - height: 23px;
+    width: 69px;
+    height: 22px;
+}.icon_relative.bd51 {
+    bottom: -6px;
+    color: #777;font-family:'宋体';left:-6px;line-height:23px;width:69px;height:22px;opacity:.9;filter:alpha(opacity= 90);
+}.icon_relative.bd52 {
+    bottom: -6px;
+    color: #f3002e;
+    font - family: '宋体';
+    left: -6px;
+    line - height: 23px;
+    width: 69px;
+    height: 22px;
+    opacity: .9;
+    filter: alpha(opacity = 90);
+}.icon_relative.bd53 {
+    bottom: -6px;
+    color: #0010d9;font-family:'宋体';left:-6px;line-height:23px;width:69px;height:22px;opacity:.9;filter:alpha(opacity= 90);
+}.icon_relative.bd54 {
+    bottom: -6px;
+    color: #a204e1;
+    font - family: '宋体';
+    left: -6px;
+    line - height: 23px;
+    width: 69px;
+    height: 22px;
+    opacity: .9;
+    filter: alpha(opacity = 90);
+}.icon_relative.bd61 {
+    bottom: -10px;
+    color: #F00;
+    font - family: '宋体';
+    left: -19px;
+    line - height: 30px;
+    width: 99px;
+    height: 34px;
+    padding - left: 11px;
+}.icon_relative.bd62 {
+    bottom: -6px;
+    color: #7e3034;font-family:'宋体';height:28px;left:-6px;line-height:33px;overflow:hidden;padding-left:25px;padding-right:10px;width:55px;}.icon_relative .bd63{bottom:-6px;color:# CC370D;
+    font - family: '宋体';
+    height: 27px;
+    left: -6px;
+    line - height: 32px;
+    overflow: hidden;
+    padding - left: 25px;
+    width: 61px;
+}.icon_relative.bd71 {
+    bottom: -13px;
+    color: #F84B4C;
+    font - family: '宋体';
+    left: -10px;
+    line - height: 35px;
+    width: 99px;
+    height: 34px;
+    padding - left: 11px;
+}.icon_relative.bd81 {
+    bottom: -13px;
+    left: -10px;
+    line - height: 35px;
+    width: 100px;
+    height: 34px;
+    padding - left: 11px;
+}.icon_relative.bd82 {
+    bottom: -13px;
+    left: -10px;
+    line - height: 35px;
+    width: 109px;
+    height: 34px;
+    padding - left: 11px;
+}.pay_msg dl dt {
+    font: bold 14px / 30px '微软雅黑';
+    border: none;
+    border - bottom: 1px#CCC solid;
+    text - align: left;
+}.pay_msg dl dd {
+    background: url("../img/ico_tx.gif") no - repeat scroll 2px 12px transparent;
+    font: 12px / 40px '微软雅黑';
+    padding: 10px 0 0 40px;
+    text - align: center;
+}

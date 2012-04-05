@@ -1,0 +1,67 @@
+* Introduce
+"TiebaPostGrabber" is web crawler based on scrapy. 
+works for Baidu_Tieba (one popular Chinese communication platform. http://wikipedia.org/wiki/Baidu_Tieba)
+This crawler grab the text content of the posting in threads.
+
+: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+: Download finished : 2012人类工作的展望 宋庆美原创_2012吧_百度贴吧
+: 1楼 *(男)*[9 级]*宋庆美:	2012就要来到了，人类的分裂时期就要开始结束了，争取全人类和平和统一的工作就要开始了。
+: 2楼 *(男)*[9 级]*宋庆美:	现在，造象的分裂势力银河系联邦已经遭到惨败，已被反象联盟驱赶到地球上，其在宇宙中的势力已被肃清。地球上由太空人开通的太空通道已经被 上帝下令封锁，造象已经两次企图逃出均未达其目的。
+: 3楼 *(男)*[9 级]*宋庆美:	造象曾企图逃向200亿光年以外的遥明星系，考虑到其若逃到那里，将其捉拿归案将至少需要两年的时间，所以经商议 上帝下令封锁了太空通道，造象未能逃出地球可证。
+: 4楼 *(男)*[9 级]*牛栏山二锅头29:	貌似好厉害啊，前排留名加求粉。
+: 5楼 *(男)*[8 级]*俺只说老实话:	MLGBD  你原谅我吧
+: 6楼 *(男)*[7 级]*cjl830:	请你表达清晰的内容，不要制造混乱!祝福你！
+: 7楼 *(男)*[9 级]*宋庆美:	多年以来，太空人积极的参与了地球事务，制止了某些人企图发动核战争的图谋！运走了正在飞行中的核弹头，并对肇事势力进行了严厉的惩罚！某些势力突然崩溃可证！
+: 8楼 *(男)*[9 级]*宋庆美:	我的内容那里不清晰，那里制造了混乱？
+: 9楼 *(男)*[9 级]*宋庆美:	你MLGBD，你这是请求原谅吗？你这是在叫号！
+: 10楼 *(男)*[7 级]*cjl830:	回复8楼:你的意思是银河联邦遭到全面溃败?还有你是光之工作者？
+
+: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+: Download finished : 「Yanzi's Time」._孙燕姿吧_百度贴吧
+: 1楼 *(男)*[10 级]*丿Mu丶Team:	...
+: 2楼 *(男)*[12 级]*纯氧未央:	,,,
+: 3楼 *(女)*[11 级]*婧哥哥小七:	？？？
+: 4楼 *(男)*[10 级]*樱空释4:	...
+: 5楼 *(男)*[10 级]*丿Mu丶Team:	
+: 6楼 *(男)*[10 级]*丿Mu丶Team:	。。。。。。。
+: 7楼 *(男)*[10 级]*樱空释4:	
+: 8楼 *(男)*[10 级]*丿Mu丶Team:	早上你没发帖    我忙去了
+: 9楼 *(女)*[11 级]*婧哥哥小七:	！！！
+: Remain on-going tasks 0
+: Remain un-fired tasks 82
+
+
+* Requirements
+** Scrapy 
+
+* Usage
+** Setting settings.py
+ + which forums to grabber
+	FORUMS = ['2012', u'孙燕姿' ]
+ + Grabber thread-list-pages Start to End
+	START_PAGE_NO = 1
+	END_PAGE_NO = 2
+ + Floors in one thread page (no need to change)
+	FLOORS_PER_PAGE = 30
+ + Max pages of one thread (since some threads are skyscrapers)
+	MAX_PAGE_PER_THREAD = 50
+
+** RUN!
+  scrapy crawl tieba
+
+* Develope
+** Walking logic
+ 1. get thread list from thread-list-pages
+ 2. get pages of a thread. combine them all
+ 3. print if all pages of a thread are fetched
+
+** TODO
+ + login
+ + post/reply
+with tesseract-ocr ?
+
+** release
+- Thu Apr  5 08:27:19 CST 2012
+by wuliang [www.wuliang.cn at gmail.com]
+
+
