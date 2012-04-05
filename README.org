@@ -50,12 +50,16 @@ This crawler grab the text content of the posting in threads.
   scrapy crawl tieba
 
 * Develope
+** Why BaseSpider, not CrawlSpider?
+ Full control & more efficiency
+It uses idea similiar as CrawlSpider, e.g. using "meta" field to carry information.
+ 
 ** Walking logic
  1. get thread list from thread-list-pages
  2. get pages of a thread. combine them all
  3. print if all pages of a thread are fetched
 
-** TODO
+** Next... (maybe)
  + login
  + post/reply
 with tesseract-ocr ?
